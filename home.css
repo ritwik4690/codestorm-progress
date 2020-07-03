@@ -9,10 +9,16 @@
     height: 100%;
   }
 
-  .shop-now {
-      position: absolute;
-      z-index: 1;
+  .carousel-label {
+      width: 30%;
+      margin: 7% 20% 5% 0;
   }
+
+  .welcome {
+      letter-spacing: 0.2rem;
+      color: #f5f5f5;
+  }
+
 
   .carousel-control-next-icon, .carousel-control-prev-icon {
       height: 40px;

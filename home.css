@@ -1,4 +1,15 @@
 
+  
+  body {
+    background-color: #ffffff;
+}
+  
+
+
+.checked {
+    color: orange;
+}
+
   span {
       color: rgba(166, 166, 168, 0.514);
       margin: 0 0.5rem;
@@ -46,7 +57,7 @@ footer {
 }
 
 .left-footer {
-    padding: 3% 7% 5% 5%;
+    padding: 7% 7% 5% 5%;
 }
 
 .right-footer{
@@ -71,6 +82,32 @@ footer {
 .copyright {
     text-align: center;
 }
+
+
+/* Product pages */
+.button {
+    background-color: #e08e30; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+.button:hover {
+    background-color: #af874c; 
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    text-decoration: none;
+}
+
+.product-details {
+    margin-top: 3rem;
+    width: 65%;
+}
+
 
    @media (min-width: 40em) {
     /* Bump up size of carousel content */

@@ -1,0 +1,34 @@
+{% extends 'store/main.html' %}
+{% load static %}
+{% block content %}
+<div class="row fashion">
+    
+    <div class="col-lg-4">
+        <img class="thumbnail" src="{% static 'images/watch.jpg' %}">
+        <div class="box-element product">
+            <h6><strong>Fossil Gen5 Watch</strong></h6>
+            <hr>
+
+            <button data-product="8" data-action="add" class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
+            <a class="btn btn-outline-success" href="#">View</a>
+            <h4 style="display: inline-block; float: right"><strong>$ 199</strong></h4>
+
+        </div>
+    </div>
+
+    <div class="col-lg-4">
+        <img class="thumbnail" src="{% static 'images/waterprooff.png' %}">
+        <div class="box-element product">
+            <h6><strong>Water Proof Shoes</strong></h6>
+            <hr>
+
+            <button data-product="10" data-action="add" class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
+            <a class="btn btn-outline-success" href="#">View</a>
+            <h4 style="display: inline-block; float: right"><strong>$ 149</strong></h4>
+
+        </div>
+    </div>
+
+    
+</div>
+{% endblock %}

@@ -1,0 +1,45 @@
+{% extends 'store/main.html' %}
+{% load static %}
+{% block content %}
+<div class="row fashion">
+    
+    <div class="col-lg-4">
+        <img class="thumbnail" src="{% static 'images/top1f.png' %}">
+        <div class="box-element product">
+            <h6><strong>Black Top</strong></h6>
+            <hr>
+
+            <button data-product="5" data-action="add" class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
+            <a class="btn btn-outline-success" href="#">View</a>
+            <h4 style="display: inline-block; float: right"><strong>$ 299</strong></h4>
+
+        </div>
+    </div>
+
+    <div class="col-lg-4">
+        <img class="thumbnail" src="{% static 'images/top2f.png' %}">
+        <div class="box-element product">
+            <h6><strong>Designer Top</strong></h6>
+            <hr>
+
+            <button data-product="6" data-action="add" class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
+            <a class="btn btn-outline-success" href="#">View</a>
+            <h4 style="display: inline-block; float: right"><strong>$ 129</strong></h4>
+
+        </div>
+    </div>
+
+    <div class="col-lg-4">
+        <img class="thumbnail" src="{% static 'images/maskwomenf.png' %}">
+        <div class="box-element product">
+            <h6><strong>Fashinable Mask for Women</strong></h6>
+            <hr>
+
+            <button data-product="7" data-action="add" class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
+            <a class="btn btn-outline-success" href="#">View</a>
+            <h4 style="display: inline-block; float: right"><strong>$ 19</strong></h4>
+
+        </div>
+    </div>
+</div>
+{% endblock %}
